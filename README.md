@@ -22,4 +22,4 @@ FavoriteButtonView(isFavorite: vmFavoriteButton.isFavorite)
 ```
 
 ## Screenshot
-![favorite_button_lego]()
+![favorite_button_lego](https://github.com/flutter-lego/favorite_button_lego/assets/21379657/081a0248-9c19-4426-888e-521da26327b0)
