@@ -3,7 +3,7 @@ description: "favorite button lego under simgple architecture framework."
 #publish_to: 'none'
 repository: https://github.com/flutter-lego/favorite_button_lego
 
-version: 1.0.0
+version: 1.0.1
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
