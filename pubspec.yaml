@@ -1,7 +1,7 @@
 name: favorite_button_lego
 description: "favorite button lego under simgple architecture framework."
 #publish_to: 'none'
-#repository: https://github.com/melodysdreamj/lego
+repository: https://github.com/flutter-lego/favorite_button_lego
 
 version: 1.0.0
 
