@@ -3,7 +3,15 @@ import 'package:flutter/material.dart';
 import '../../../../../../../../../../../main.dart';
 
 class NewView extends StatefulWidget {
-  const NewView({super.key, required this.isFavorite, this.size = 24.0});
+  const NewView(
+      {super.key,
+      required this.isFavorite,
+      this.size = 24.0,
+      this.notFavoriteWidget = const Icon(Icons.favorite_border),
+      this.favoriteWidget = const Icon(Icons.favorite, color: Colors.red)});
+
+  final Widget notFavoriteWidget;
+  final Widget favoriteWidget;
 
   final bool isFavorite;
   final double size;
