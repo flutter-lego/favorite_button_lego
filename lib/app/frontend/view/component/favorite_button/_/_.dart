@@ -4,8 +4,7 @@ import '../../../../../../../../../../../main.dart';
 
 class FavoriteButtonView extends StatefulWidget {
   const FavoriteButtonView(
-      {super.key,
-      required this.isFavorite,
+      {super.key, this.isFavorite = false,
       this.size = 24.0,
       this.notFavoriteWidget = const Icon(Icons.favorite_border),
       this.favoriteWidget = const Icon(Icons.favorite, color: Colors.red)});
@@ -40,6 +39,6 @@ main() async {
   return buildApp(
       home: Scaffold(
           body: FavoriteButtonView(
-    isFavorite: true,
+    // isFavorite: true,
   ).center()));
 }
